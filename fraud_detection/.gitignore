@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+.env
+.env.*
+
+# Candidate documents and anything derived from them: never commit real IDs
+*.db
+*.sqlite3
+
+# Model weights / large files
+models/
+*.pt
+*.pth
+*.onnx
+
+# Editor / OS
+.idea/
+.DS_Store

@@ -1,0 +1,11 @@
+{
+  "python.defaultInterpreterPath": "/home/aiml3/miniconda3/bin/python3",
+  "python.analysis.extraPaths": ["${workspaceFolder}/fraud_detection"],
+  "python.testing.pytestEnabled": true,
+  "python.testing.cwd": "${workspaceFolder}/fraud_detection",
+  "python.testing.pytestArgs": [
+    "fraud_detection/tests"
+  ],
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda"
+}
